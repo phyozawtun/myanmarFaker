@@ -1,6 +1,6 @@
 <?php
 
-namespace Faker\Test\Provider\en_NG;
+namespace myanmarFaker\Test\Provider\en_NG;
 
 use Faker\Provider\en_NG\Internet;
 use Faker\Provider\en_NG\Person;

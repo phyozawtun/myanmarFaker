@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Faker\Test\Extension;
+namespace myanmarFaker\Test\Extension;
 
 use Faker\Core\File;
 use Faker\Extension\Container;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Faker\Test\Provider\en_ZA;
+namespace myanmarFaker\Test\Provider\en_ZA;
 
 use Faker\Provider\DateTime;
 use Faker\Provider\en_ZA\Person;

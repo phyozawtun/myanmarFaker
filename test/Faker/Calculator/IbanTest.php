@@ -1,6 +1,6 @@
 <?php
 
-namespace Faker\Test\Calculator;
+namespace myanmarFaker\Test\Calculator;
 
 use Faker\Calculator\Iban;
 use Faker\Test\TestCase;

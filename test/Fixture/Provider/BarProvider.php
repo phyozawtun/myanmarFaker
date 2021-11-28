@@ -1,6 +1,6 @@
 <?php
 
-namespace Faker\Test\Fixture\Provider;
+namespace myanmarFaker\Test\Fixture\Provider;
 
 final class BarProvider
 {

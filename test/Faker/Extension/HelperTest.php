@@ -1,6 +1,6 @@
 <?php
 
-namespace Faker\Test\Extension;
+namespace myanmarFaker\Test\Extension;
 
 use Faker\Extension\Helper;
 use PHPUnit\Framework\TestCase;

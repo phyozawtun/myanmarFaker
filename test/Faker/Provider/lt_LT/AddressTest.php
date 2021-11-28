@@ -1,6 +1,6 @@
 <?php
 
-namespace Faker\Test\Provider\lt_LT;
+namespace myanmarFaker\Test\Provider\lt_LT;
 
 use Faker\Provider\lt_LT\Address;
 use Faker\Test\TestCase;

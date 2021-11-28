@@ -1,6 +1,6 @@
 <?php
 
-namespace Faker\Test\Provider\zh_TW;
+namespace myanmarFaker\Test\Provider\zh_TW;
 
 use Faker\Provider\zh_TW\Company;
 use Faker\Test\TestCase;

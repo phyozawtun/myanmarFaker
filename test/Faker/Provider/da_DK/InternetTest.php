@@ -1,6 +1,6 @@
 <?php
 
-namespace Faker\Test\Provider\da_DK;
+namespace myanmarFaker\Test\Provider\da_DK;
 
 use Faker\Provider\da_DK\Company;
 use Faker\Provider\da_DK\Internet;

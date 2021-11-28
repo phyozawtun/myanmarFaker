@@ -1,6 +1,6 @@
 <?php
 
-namespace Faker\Test\Provider\fa_IR;
+namespace myanmarFaker\Test\Provider\fa_IR;
 
 use Faker\Provider\fa_IR\Person;
 use Faker\Test\TestCase;

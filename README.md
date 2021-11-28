@@ -1,15 +1,14 @@
-<p style="text-align: center"><img src="https://github.com/FakerPHP/Artwork/raw/main/src/socialcard.png" alt="Social card of FakerPHP"></p>
+![](./README/README.jpg)
 
-# Faker
+# myanmarFaker
 
-[![Packagist Downloads](https://img.shields.io/packagist/dm/FakerPHP/Faker)](https://packagist.org/packages/fakerphp/faker)
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/FakerPHP/Faker/Tests/main)](https://github.com/FakerPHP/Faker/actions)
-[![Type Coverage](https://shepherd.dev/github/FakerPHP/Faker/coverage.svg)](https://shepherd.dev/github/FakerPHP/Faker)
-[![Code Coverage](https://codecov.io/gh/FakerPHP/Faker/branch/main/graph/badge.svg)](https://codecov.io/gh/FakerPHP/Faker)
+Faker ဆိုတာက  Fake ဒေတာတွေ လုပ်ပေးတဲ့ PHP library ခပ်သေးသေးတစ်ခုပါ။ Database ထဲ ဒေတာ အကြမ်းတွေ၊ အစမ်းထည့်တာတို့ Data seeding  လုပ်တာတို့၊ XML ဖိုင်ကိုကြည့် ကောင်းအောင် Fake ဒေတာတွေနဲ့ လုပ်ကြံတာတို့၊ Rest API တွေကို Fake string တွေနဲ့ response ပြန်တဲ့အခါမျိုးမှာ အတော်အသုံးဝင်ပါတယ်။ Laravel မှာလည်း default ပါတာမို့ native PHP သမားတွေရော Laravel အတွက်ရော friendly ဖြစ်တဲ့ Package ဆိုလည်း ဟုတ်ပါတယ်။
 
-Faker is a PHP library that generates fake data for you. Whether you need to bootstrap your database, create good-looking XML documents, fill-in your persistence to stress test it, or anonymize data taken from a production service, Faker is for you.
+ယခု  Project ကမူရင်း [FakerPHP/Faker](https://github.com/FakerPHP/Faker) ကို Fork လုပ်ထားတာပါ။
 
-It's heavily inspired by Perl's [Data::Faker](https://metacpan.org/pod/Data::Faker), and by Ruby's [Faker](https://rubygems.org/gems/faker).
+### Project Road Map
+
+အခု myanmarFaker ရဲ့ဆက်ပြီးတော့ရေးသွားမယ့် Features တွေကို [Project road map](https://github.com/phyozawtun/myanmarFaker/projects/1) မှာဖော်ပြထားပါတယ်။
 
 ## Getting Started
 
@@ -17,60 +16,65 @@ It's heavily inspired by Perl's [Data::Faker](https://metacpan.org/pod/Data::Fak
 
 Faker requires PHP >= 7.1.
 
+1. Clone the repo
+
 ```shell
-composer require fakerphp/faker
+git clone https://github.com/phyozawtun/myanmarFaker.git
 ```
+
+2. Composer
+
+```shell
+composer install
+```
+
+3. Run in your browser and it should run like this.
+
+```shell
+myanmarFaker-example.php
+```
+
+![](./README/screenshot-01.png)
 
 ### Documentation
 
-Full documentation can be found over on [fakerphp.github.io](https://fakerphp.github.io).
+လောလောဆယ် Full Documentation ကို [fakerphp.github.io](https://fakerphp.github.io) ကနေပဲ ကြည့်ပေးပါ။ နောက်မှ ပြည့်စုံတဲ့ Documentation ရေးထားပါမယ်။
 
 ### Basic Usage
 
-Use `Faker\Factory::create()` to create and initialize a Faker generator, which can generate data by accessing methods named after the type of data you want.
+အရင်ဆုံး `myanmarFaker\Factory::create()` ဆိုပြီး initialize လုပ်ဖို့လိုပါတယ်။ ပြီးနောက်ဖော်ပြပါအတိုင်း မြန်မာ စာကြမ်းတွေကို လိုချင်တဲ့ပုံစံအတိုင်း request လုပ်ပြီး တောင်းလို့ရပါတယ်။
 
 ```php
 <?php
 require_once 'vendor/autoload.php';
 
 // use the factory to create a Faker\Generator instance
-$faker = Faker\Factory::create();
+$faker = myanmarFaker\Factory::create();
 // generate data by calling methods
 echo $faker->name();
-// 'Vince Sporer'
+// သန္တာအောင်
 echo $faker->email();
-// 'walter.sophia@hotmail.com'
-echo $faker->text();
-// 'Numquam ut mollitia at consequuntur inventore dolorem.'
+// toe.bo@aung.com.mm
+echo $faker->imgae();
+// https://source.unsplash.com/250x250/?myanmar,bagan
 ```
 
-Each call to `$faker->name()` yields a different (random) result. This is because Faker uses `__call()` magic, and forwards `Faker\Generator->$method()` calls to `Faker\Generator->format($method, $attributes)`.
+
+
+မူရင်း Faker Library မှာ `__call()` ဆိုတဲ့ PHP ရဲ့ Feature တစ်ခုကိုသုံးထားပါတယ်။ အဲ့တာကြောင့်  `$faker->name()` ဆိုပြီးခေါ်လိုက်တိုင်း မတူရဲ့ စာကြမ်းတွေကိုထုတ်ပေးနိုင်ပါတယ်။ ပိုသိချင်တယ်ဆို မူရင်း Project ရဲ့ [README.md](https://github.com/FakerPHP/Faker) မှာသွားလေ့လာဖို့အကြံပြုပါတယ်။
 
 ```php
 <?php
 for ($i = 0; $i < 3; $i++) {
     echo $faker->name() . "\n";
 }
-
-// 'Cyrus Boyle'
-// 'Alena Cummerata'
-// 'Orlo Bergstrom'
+// သီရိအောင်
+// သန္တာအောင်
+// ဇေယျာချို
+// သျှင်ဇေယျာတိုး
+// သီဟအောင်
 ```
 
 ## License
 
 Faker is released under the MIT License. See [`LICENSE`](LICENSE) for details.
-
-## Backward compatibility promise
-
-Faker is using [Semver](https://semver.org/). This means that versions are tagged
-with MAJOR.MINOR.PATCH. Only a new major version will be allowed to break backward
-compatibility (BC).
-
-Classes marked as `@experimental` or `@internal` are not included in our backward compatibility promise.
-You are also not guaranteed that the value returned from a method is always the
-same. You are guaranteed that the data type will not change.
-
-PHP 8 introduced [named arguments](https://wiki.php.net/rfc/named_params), which
-increased the cost and reduces flexibility for package maintainers. The names of the
-arguments for methods in Faker is not included in our BC promise.

@@ -1,6 +1,6 @@
 <?php
 
-namespace Faker\Test\Provider\mn_MN;
+namespace myanmarFaker\Test\Provider\mn_MN;
 
 use Faker\Provider\mn_MN\Person;
 use Faker\Test\TestCase;

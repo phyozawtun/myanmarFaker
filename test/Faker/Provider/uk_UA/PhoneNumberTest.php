@@ -1,6 +1,6 @@
 <?php
 
-namespace Faker\Test\Provider\uk_UA;
+namespace myanmarFaker\Test\Provider\uk_UA;
 
 use Faker\Provider\uk_UA\PhoneNumber;
 use Faker\Test\TestCase;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Faker\Provider\tr_TR;
+namespace myanmarFaker\Provider\tr_TR;
 
 use Faker\Test\TestCase;
 

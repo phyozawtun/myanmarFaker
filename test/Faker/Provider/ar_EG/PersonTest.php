@@ -1,6 +1,6 @@
 <?php
 
-namespace Faker\Test\Provider\ar_EG;
+namespace myanmarFaker\Test\Provider\ar_EG;
 
 use Faker\Calculator\Luhn;
 use Faker\Provider\ar_EG\Person;

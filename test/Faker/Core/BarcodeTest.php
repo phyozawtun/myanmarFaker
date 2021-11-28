@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Faker\Test\Core;
+namespace myanmarFaker\Test\Core;
 
 use Faker\Calculator\Ean;
 use Faker\Calculator\Isbn;

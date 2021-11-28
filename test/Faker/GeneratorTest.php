@@ -1,6 +1,6 @@
 <?php
 
-namespace Faker\Test;
+namespace myanmarFaker\Test;
 
 use Faker\Core\Blood;
 use Faker\Core\File;

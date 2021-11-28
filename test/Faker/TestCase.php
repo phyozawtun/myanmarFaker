@@ -1,6 +1,6 @@
 <?php
 
-namespace Faker\Test;
+namespace myanmarFaker\Test;
 
 use Faker\Generator;
 use PHPUnit\Framework\TestCase as BaseTestCase;

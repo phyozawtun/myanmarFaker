@@ -1,6 +1,6 @@
 <?php
 
-namespace Faker\Test\Provider;
+namespace myanmarFaker\Test\Provider;
 
 use Faker\Calculator\Luhn;
 use Faker\Provider\PhoneNumber;

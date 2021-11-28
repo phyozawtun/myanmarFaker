@@ -1,6 +1,6 @@
 <?php
 
-namespace Faker\Test\Provider\bg_BG;
+namespace myanmarFaker\Test\Provider\bg_BG;
 
 use Faker\Provider\bg_BG\Payment;
 use Faker\Test\TestCase;

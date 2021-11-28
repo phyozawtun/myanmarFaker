@@ -1,6 +1,6 @@
 <?php
 
-namespace Faker\Test\Provider\de_CH;
+namespace myanmarFaker\Test\Provider\de_CH;
 
 use Faker\Calculator\Ean;
 use Faker\Provider\de_CH\Person;

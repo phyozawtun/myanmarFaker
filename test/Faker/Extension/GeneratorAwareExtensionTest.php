@@ -1,6 +1,6 @@
 <?php
 
-namespace Faker\Test\Extension;
+namespace myanmarFaker\Test\Extension;
 
 use Faker\Extension\Extension;
 use Faker\Extension\GeneratorAwareExtensionTrait;

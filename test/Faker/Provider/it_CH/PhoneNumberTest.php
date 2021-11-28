@@ -1,6 +1,6 @@
 <?php
 
-namespace Faker\Test\Provider\it_CH;
+namespace myanmarFaker\Test\Provider\it_CH;
 
 use Faker\Provider\it_CH\PhoneNumber;
 use Faker\Test\TestCase;

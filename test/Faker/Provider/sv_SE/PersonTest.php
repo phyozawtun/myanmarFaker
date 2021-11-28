@@ -1,6 +1,6 @@
 <?php
 
-namespace Faker\Test\Provider\sv_SE;
+namespace myanmarFaker\Test\Provider\sv_SE;
 
 use Faker\Calculator\Luhn;
 use Faker\Provider\sv_SE\Person;

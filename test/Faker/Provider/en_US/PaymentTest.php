@@ -1,6 +1,6 @@
 <?php
 
-namespace Faker\Provider\en_US;
+namespace myanmarFaker\Provider\en_US;
 
 use Faker\Test\TestCase;
 

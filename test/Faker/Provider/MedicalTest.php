@@ -1,6 +1,6 @@
 <?php
 
-namespace Faker\Test\Provider;
+namespace myanmarFaker\Test\Provider;
 
 use Faker\Provider\Medical;
 use Faker\Test\TestCase;
