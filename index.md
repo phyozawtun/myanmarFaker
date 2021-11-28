@@ -1,37 +1,33 @@
-## Welcome to GitHub Pages
+## myanmarFaker
 
-You can use the [editor on GitHub](https://github.com/phyozawtun/myanmarFaker/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Faker ဆိုတာက  Fake ဒေတာတွေ လုပ်ပေးတဲ့ PHP library ခပ်သေးသေးတစ်ခုပါ။ Database ထဲ ဒေတာ အကြမ်းတွေ၊ အစမ်းထည့်တာတို့ Data seeding  လုပ်တာတို့၊ XML ဖိုင်ကိုကြည့် ကောင်းအောင် Fake ဒေတာတွေနဲ့ လုပ်ကြံတာတို့၊ Rest API တွေကို Fake string တွေနဲ့ response ပြန်တဲ့အခါမျိုးမှာ အတော်အသုံးဝင်ပါတယ်။ Laravel မှာလည်း default ပါတာမို့ native PHP သမားတွေရော Laravel အတွက်ရော friendly ဖြစ်တဲ့ Package ဆိုလည်း ဟုတ်ပါတယ်။
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Basic Usage
 
-### Markdown
+အရင်ဆုံး `myanmarFaker\Factory::create()` ဆိုပြီး initialize လုပ်ဖို့လိုပါတယ်။ ပြီးနောက်ဖော်ပြပါအတိုင်း မြန်မာ စာကြမ်းတွေကို လိုချင်တဲ့ပုံစံအတိုင်း request လုပ်ပြီး တောင်းလို့ရပါတယ်။
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+```php
+<?php
+require_once 'vendor/autoload.php';
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+// use the factory to create a Faker\Generator instance
+$faker = myanmarFaker\Factory::create();
+// generate data by calling methods
+echo $faker->name();
+// 'Vince Sporer'
+echo $faker->email();
+// 'walter.sophia@hotmail.com'
+echo $faker->text();
+// 'Numquam ut mollitia at consequuntur inventore dolorem.'
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+### Project Road Map
+
+အခု myanmarFaker ရဲ့ဆက်ပြီးတော့ရေးသွားမယ့် Features တွေကို [Project road map](https://github.com/phyozawtun/myanmarFaker/projects/1) မှာဖော်ပြထားပါတယ်။
+
+### Project Wiki
+project ရဲ့ ရည်ရွယ်ချက်နဲ့ Mission Vision တွေကို Wiki Page မှာဖတ်လို့ရပါတယ်။
 
 ### Jekyll Themes
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/phyozawtun/myanmarFaker/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
