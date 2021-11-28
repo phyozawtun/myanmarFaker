@@ -26,4 +26,4 @@ echo $faker->imgae();
 အခု myanmarFaker ရဲ့ဆက်ပြီးတော့ရေးသွားမယ့် Features တွေကို [Project road map](https://github.com/phyozawtun/myanmarFaker/projects/1) မှာဖော်ပြထားပါတယ်။
 
 ### Project Wiki
-Project ရဲ့ ရည်ရွယ်ချက်နဲ့ Mission Vision တွေကို [Wiki] (https://github.com/phyozawtun/myanmarFaker/wiki) မှာဖတ်လို့ရပါတယ်။
+Project ရဲ့ ရည်ရွယ်ချက်နဲ့ Mission Vision တွေကို [Wiki](https://github.com/phyozawtun/myanmarFaker/wiki) မှာဖတ်လို့ရပါတယ်။
