@@ -14,11 +14,11 @@ require_once 'vendor/autoload.php';
 $faker = myanmarFaker\Factory::create();
 // generate data by calling methods
 echo $faker->name();
-// 'Vince Sporer'
+// သန္တာအောင်
 echo $faker->email();
-// 'walter.sophia@hotmail.com'
-echo $faker->text();
-// 'Numquam ut mollitia at consequuntur inventore dolorem.'
+// toe.bo@aung.com.mm
+echo $faker->imgae();
+// https://source.unsplash.com/250x250/?myanmar,bagan
 ```
 
 ### Project Road Map
